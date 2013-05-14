@@ -1,0 +1,24 @@
+{
+    "name": "beatnode/mixcloud",
+    "description": "PHP wrapper for the Mixcloud API",
+    "version": "1.0.0",
+    "keywords": ["mixcloud"],
+    "homepage": "https://github.com/beatnode/mixcloud",
+    "type": "library",
+    "license": "MIT", 
+    "authors": [
+        {
+            "name": "Stephen Radford",
+            "email": "steve228uk@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Beatnode\\Mixcloud": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
